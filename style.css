@@ -136,7 +136,7 @@ display:inline;
 #clearbanner
 { width:100%;
 height:4px;
-background-color:#fea200;
+background-color:#3278af;
 clear:both;
 }
 /*-------瀵艰埅鏍?-------*/
@@ -172,7 +172,7 @@ text-decoration:none;
 }
 #nav a:hover,#nav a:active
 {
-background-color:#fea200;
+background-color:#3278af;
 }
 
 
@@ -334,7 +334,7 @@ text-decoration:none;
 
   
 #research a:hover
-{ background-color:#fea200;
+{ background-color:#3278af;
 color:#FFF;
 
 	
@@ -602,7 +602,7 @@ margin-top:70px;
 */
 margin-bottom:0px;
 padding:15px 0;
-border-top:3px solid #fea200;
+border-top:3px solid #3278af;
 line-height:23px;
 clear:both;
 }
@@ -616,7 +616,7 @@ margin-right:auto;
 margin-top:200px;
 margin-bottom:0px;
 padding:15px 0;
-border-top:3px solid #fea200;
+border-top:3px solid #3278af;
 line-height:23px;
 clear:both;
 }
