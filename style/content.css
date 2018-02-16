@@ -1,0 +1,475 @@
+ol,ul{list-style:none;margin:0px;padding:0px;}
+a{text-decoration:none; }
+
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ color:blue;
+}
+a:active {
+ text-decoration: none;
+}
+img{max-width:100%; height: auto;}	
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{clear:both;}/* clear float */
+img{max-width:100%; height: auto;}	/*edit 20141104 */
+/*end reset*/
+
+#body {
+	min-width: 1366px;
+	width:1366px;	
+	margin: 0 auto;
+	padding:0;
+	background-color:#fff;
+	line-height: 1.2;
+	font-family: Arial,helvetica, sans-serif;
+}
+
+p{
+	font-family: Arial,helvetica, sans-serif;
+	margin:12px 0 12px 0;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.center{
+	text-align: center;
+}
+
+.greyline{
+	width:100%;
+	height:1px;
+	background-color: #aaa;
+	margin-bottom: 20px;
+}
+
+#head {
+	background-color: #002147;
+	height: 210px;
+	font-size:16px;
+	font-family: "century gothic", Arial, Geneva, sans-serif;
+	/*position:relative;*/
+}
+
+#head_1 {
+	background-color: #002147;
+	height: 140px;
+	font-size:16px;
+	font-family: "century gothic", Arial, Geneva, sans-serif;
+	position:relative;
+}
+
+#logo {
+	padding:40px 20px 20px 40px;
+}
+
+#logo1{
+	padding:40px 20px 20px 40px;
+	float:left;
+}
+/*
+#nav {
+	height:60px;
+	width:1312px;
+	margin:auto;
+	background-color:#1a385a;
+	font-family:"Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 19px;
+	color: #F5F5F5;
+}*/
+
+#nav_1 {
+	height:60px;
+	width:1000px;
+	/*padding:20px 10px 0 20px;*/
+	background-color:#1a385a;
+	font-family:"Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 19px;
+	color: #F5F5F5;
+	position:absolute;
+	top:40px;
+	left:240px;
+}
+
+#nav_1 ul a{
+	display: block;
+	text-align: center;
+	/*line-height:58px;*/
+	/*padding: 9px 50px 8px 50px;*/	/*文字位置*/
+	color:#F5F5F5;
+	padding-top:19px;
+	padding-bottom:19px;
+	text-decoration: none;
+}
+
+.nav_1 ul a:hover {
+ text-decoration: none;
+}
+
+#nav_1 ul li {
+	width:19.8%;	
+	height: 100%;		
+	float: left;
+	position: relative;
+
+}
+
+#nav_1 ul ul li {	
+	width:100%;
+	height: auto;/**/
+	border-top: solid 1px #69c;	 /*190190190 */
+	background-color: #3277ae;
+}
+
+#nav_1 ul a:hover{	
+	background-color: #3277ae;
+}
+
+#nav_1 ul ul a {	
+	background-color:#3277ae ;	/* rgb(190,190,190) (120,120,120,0.95) */
+	/* color: black; */
+}
+
+#nav_1 ul ul a:hover{	
+	background-color: #1a385a;
+}
+
+#nav_1 ul #nav_line {
+	width:2px;
+	height:60px;
+	margin-top: 15px;
+	background: url(../images/nav_line.png) repeat-x; 
+	/*background-color: #fff;*/
+}
+
+.content-body{
+	/*width:100%;*/
+	padding:0px 150px 0px 150px;
+	background-color: #f3f1ec;
+}
+
+.content-body h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 1em 0;
+}
+.content-body h2 {
+	font-weight: bold;
+	margin: 1em 0;
+}
+.content-body li h2 {
+	margin-top: 3em;
+}
+.content-body ol {
+	list-style: decimal;
+	margin: 1em 0 1em 1.5em;
+	line-height: 150%;
+}
+.content-body ul {
+	margin: 1em 0;
+	line-height: 150%;
+}
+
+.breadcrumb1 {
+	font-size: 14pt;
+	font-family:Arial, helvetica, sans-serif;
+	background-color: #fff;
+	padding:10px 0 8px 0;
+	color:blue;
+}
+
+/*.paragraph{
+	width:100%;
+	font-size: 15pt;
+	font-family:Arial, helvetica, sans-serif;
+	margin:20px auto 20px auto;
+}*/
+
+.course-content{
+	width:100%;
+	height:100%;
+	padding:10px 80px 50px 80px;
+	background-color: #fff;
+}
+
+.contact-content{
+	width:100%;
+	height:400px;
+}
+
+.course-content{
+	line-height: 150%;
+}
+
+.map-img{
+	float:left;
+	margin-right:40px;
+	border:1px solid #67a;
+}
+
+.extendable {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+.list {
+	position: absolute;
+	top: 58px;	
+	display: none;
+	width: 100%;
+	z-index: 10000;	
+}
+
+#banner {
+	height:468px;
+	width:100%;
+	/*background-color:#39a1d8;*/
+	position:relative;
+}
+
+.carousel-caption{
+	width:100%;
+	text-align: left;
+	padding-left:0;
+	margin-left:0;
+	left:40px;
+	bottom:10px;
+}
+
+/*.carousel-indicators{
+	bottom:10px;
+}
+*/
+#img_text {
+	margin: -150px 20px 20px 40px;
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#img_shadow {
+	margin: 0;
+	padding:0;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+#img_text_time {
+	margin: -25px 20px 20px 40px;
+	font-family: "century gothic", Arial, Geneva, sans-serif;
+	font-size: 22px;
+	color: #eee;
+}
+
+#news_events {
+	height:428px;
+	width:100%;
+	background-color: #f3f1ec;
+	
+}
+
+#news {
+	width:990px;
+	height:340px;
+	padding:55px 0px 40px 45px;
+	/*background-color:#00f;*/
+	float:left;
+}
+
+#content_title {
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #222;	
+	/*padding-right:10px;*/
+	float:left;
+}
+
+#content_title_small {
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 24px;
+	color: #006;
+	padding:7px 0px 10px 30px;	
+}
+
+.subject{
+	width:20%;
+	float:left;
+	z-index: 0;
+}
+
+/*.content-body h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 1em 0;
+}*/
+.coursename{
+	font-weight: bold;
+	color:#808080;
+}
+
+
+#news_block {
+	width:30%;
+	float:left;
+	margin-right:33px;
+}
+
+#news_block3 {
+	width:30%;
+	float:left;
+}
+
+#news_content {
+	width:100%;
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 20px;
+	padding-bottom:10px;
+}
+
+#news_date {
+	width:100%;
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 15px;
+	color:#aaa;
+	margin-top: -15px;
+}
+
+#events {
+	width:310px;
+	height:240px;
+	margin:60px 40px 40px 0px;
+	float:right;
+}
+
+.name{
+	position: relative;
+	padding-top: 6px;
+	top: -40px;
+	height: 33px;
+	display: block;
+	background-color: rgba(209,104,26,0.72); /*(188,101,19,0.79)*/
+	text-align: center;
+	color: white;
+}
+.shell 
+{ 
+background:no-repeat 4px 5px; 
+border: none; 
+width: 310px; 
+padding: 3px 2px 2px 20px; 
+
+} 
+#div1 
+{ 
+height: 240px; 
+overflow: hidden; 
+} 
+.readmore{
+	font-size:13pt;
+	padding-left:230px;
+	color:blue;
+	margin-top:10px;
+}
+.readmore a{
+	color:blue;
+}
+
+
+#study {
+	height:380px;
+	background-color: #e0ded9;
+}
+
+#study_content {
+	width:1280px;
+	margin:auto;
+	padding-top:55px;
+}
+
+/*#study_title {
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 37px;
+	font-weight: bold;
+	color: #222;
+}*/
+
+#study_title {
+	font-family: "Franklin Gothic Book", Arial, Geneva, sans-serif;
+	font-size: 37px;
+	font-weight: bold;
+	color: #222;	
+	/*padding-right:10px;*/
+	/*float:left;*/
+}
+
+#img_content {
+	width:1280px;
+	margin:auto;
+	height:230px;
+	padding-top:50px;
+	/*background-color: #00f;*/
+} 
+
+#study_img {
+	/*width:1280px;
+	margin:auto;*/
+	margin:20px 40px 0 0;
+	float:left;
+}
+
+#study_img1 {
+	/*width:1280px;
+	margin:auto;*/
+	margin:20px 0px 0 0;
+}
+
+#footer {
+	height:200px;
+	background-color:#002147;
+}
+
+#footer_img {
+	width:1250px;
+	margin:auto;
+	padding-top:40px;
+	margin-bottom:12px;
+}
+
+#link_img {
+	float:left;
+	padding-right:100px;
+}
+
+#line {
+	width:1250px;
+	height:1px;
+	margin-top: 50px;
+	margin:auto;
+	background-color: #557;
+}
+
+#copyright {
+	margin-top:50px;
+	text-align: center;
+	font-family: "century gothic", Arial, Geneva, sans-serif;
+	font-size:14px;
+	color:#ccc;
+}

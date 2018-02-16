@@ -1,0 +1,232 @@
+html {
+	margin: 0 auto;
+	width: 100%;
+}
+body {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	background: url('../images/back.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: top center;
+}
+#head {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 99px;
+	background-color: #f5f5f5;
+	z-index: 20;
+}
+#head img {
+	margin-left: 113px;
+	margin-top: -13px;
+	width: 700px;
+}
+#viewport {
+	width: 70%;
+	max-width: 910px;
+	padding: 0;
+	min-height: 1000px;
+	background-color: white;
+	margin: 99px auto 0;
+	padding-bottom: 15px;
+}
+#nav {
+	width: 70%;
+	max-width: 910px;
+	position: fixed;
+	height: 40px;
+	background-color: white;
+	margin: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+#nav p {
+	background: url("../images/arrow.png") no-repeat scroll -5px 10px;
+	background-size: 30px auto;
+	background-color: #990404;
+	color: white;
+	display: block;
+	width: 14em;
+	height: 30px;
+	margin: 0;
+	padding: 5px 0 5px 35px;
+	font-family: arial;
+	font-size: 25px;
+}
+#nav a, #nav a:hover, #nav a:visited {
+	color: white;
+}
+#content {
+	margin-top: 99px;
+	padding: 50px 10px 10px 10px;
+	font-family: arial;
+}
+#content p {
+	padding: 10px 0 0 10px;
+	word-wrap: break-word;
+	word-spacing: em;
+	font-family: arial;
+	font-size: 20px;
+}
+#menu {
+	position: fixed;
+	margin-left: 0;
+	margin-top: 50px;
+	padding: 0;
+	width: 150px;
+	float: left;
+	background-color: rgba(40,40,40,0.64);
+	z-index: 100;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(40,40,40,0.64);
+}
+#menu ul li {
+	color: #F5F5F5;
+	font-weight: 10;
+	font-size: 18px;
+	font-family: "Modern No. 20";
+	margin: 0;
+	padding: 0;
+	height: 36px;
+	list-style-type: none;	
+}
+#menu ul li a, #menu ul li a:visited, #menu ul li a:hover {
+	vertical-align: center;
+	display: block;
+	height: 20px;
+	padding: 8px;
+	color: #F5F5F5;
+	text-decoration: none;
+	border-bottom: solid 1px gray;
+}
+#menu ul li a:hover {
+	background-color: black;
+}
+#aboutus {
+	clear: left;
+	border-left: solid 6px #031e6b;
+}
+#academics {
+	border-left: solid 6px #680404;
+}
+#admission {
+	border-left: solid 6px #075101;
+}
+#research {
+	border-left: solid 6px #5b5902;
+}
+#faculty {
+	border-left: solid 6px #480e66;
+}
+ul#aboutusList {
+	position: relative;
+	left: 144px;
+	top: -37px;
+	width: 130px;
+	display: none;
+}
+
+ul#academicsList {
+	position: relative;
+	left: 144px;
+	top: -37px;
+	width: 220px;
+	display: none;
+}
+ul#admissionList {
+	position: relative;
+	left: 144px;
+	top: -37px;
+	width: 150px;
+	display: none;
+}
+ul#researchList {
+	position: relative;
+	left: 144px;
+	top: -37px;
+	width: 180px;
+	display: none;
+}
+ul#facultyList {
+	position: relative;
+	left: 144px;
+	top: -37px;
+	width: 150px;
+	display: none;
+}
+#map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+}
+#foot {
+	width: 100%;
+	padding-top: 10px;
+	background-color: white;
+}
+#copy {
+	max-width: 1074px;
+	border-top: solid 5px #aaaaaa;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	clear: both;
+}
+#copy a {
+	margin: 0;
+	padding: 0;
+}
+#copy img {
+	margin:0;
+	padding:0;
+	max-height: 36px;
+}
+#copy p {
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+}
+#content img {
+	width: 100%;
+}
+#content .subject a, #content .subject a:hover, #content .subject a:visited, #content .lecture a, #content .lecture a:hover, #content .lecture a:visited {
+	text-decoration: none;
+}
+#content .subject img {
+	display: block;
+	z-index: 0;
+}
+#content .subject span {
+	padding-top: 2px;
+	position: relative;
+	bottom: 30px;
+	height: 28px;
+	display: block;
+	background-color: rgba(188,101,19,0.79);
+	text-align: center;
+	color: white;
+}
+#content .lecture {
+	width: 20%;
+	float: left;
+}
+#content .lecture img {
+	display: block;
+	z-index: 0;
+}
+#content .lecture span {
+	padding-top: 0px;
+	position: relative;
+	bottom: 28px;
+	height: 28px;
+	display: block;
+	background-color: rgba(60,60,100,0.79);
+	text-align: center;
+	color: white;
+}

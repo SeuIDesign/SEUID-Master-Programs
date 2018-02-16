@@ -1,0 +1,20 @@
+.pull-left { float:left; }
+.pull-right { float:right; }
+.right img { margin-bottom: 1em; }
+.whole { width: 100%; }
+.half {	width: 50%; }
+.quarter { width: 25%; }
+.thumbnail { width: 100px; height: 100px; margin-right: 10px; }
+.content-body h1 { font-size: 24px; font-family: Arial, helvetica, sans-serif;}
+.content-body h2 { margin-top: 2em; margin-bottom:1em;font-size: 16px; font-family: Arial, helvetica, sans-serif;}
+/*.content-body a, #content a:hover { color: #990404; }*/
+.content-body .whole p, #content .half p, #content .quarter p  { margin: 0; }
+.content-body .teacher-info p {
+	margin-top: 0;
+	margin-bottom: 0.25em;
+}
+.content-body .half .teacher-info {
+	max-width: 55%
+}
+.content-body ul { list-style: disc; margin: 1em 0 1em 1.5em; }
+p a{font-family:Arial, helvetica, sans-serif; color:#00e;}
