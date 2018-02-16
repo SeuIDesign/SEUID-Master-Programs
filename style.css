@@ -60,13 +60,15 @@ height:20px;
 
 }
 #language a
-{ text-decoration:none;
+{ color:#ffffff;
+	text-decoration:none;
 }
 #language a:link,#language a:visited
-{ color::#999; 
+{
 }
 #language a:hover
-{ color::#000;
+{ 
+	color:#ffffff;
 font-weight:bold;
 text-decoration:underline;
 }
@@ -75,7 +77,8 @@ text-decoration:underline;
 display:inline;
 }
 .lan_table2
-{ float:right;
+{ color:#0c458a;
+	float:right;
 display:inline;
 }
 .lan_table3
@@ -238,7 +241,7 @@ line-height:150%;
 .content_style h1
 {
 font-size:2em;
-color:#84ba5c;
+color:#002247;
 border-bottom: 1px solid #84ba5c;
 padding-bottom:10px;
 font-family:Arial, Helvetica, sans-serif;
